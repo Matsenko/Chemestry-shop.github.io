@@ -1,0 +1,51 @@
+.head1{
+  font-family: 'Staatliches', cursive;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+
+}
+.head1:hover{
+color: #8ba856;
+animation-name: lol;
+animation-duration: 2s;
+animation-timing-function: ease-in;
+
+}
+.Com1{
+  font-family: 'Staatliches', cursive;
+  font-size: 40px;
+}
+body{
+  background-image: url("https://i.pinimg.com/originals/a7/61/80/a76180d2cb9f8116574f5091102742a9.jpg");
+  background-size: auto;
+}
+.Com1:hover{
+color: #dbaa21;
+display: flex;
+justify-content: flex-end;
+}
+@keyframes lol {
+  0%{
+      transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+.exit1{
+  font-family: 'Staatliches', cursive;
+  font-size: 40px;
+}
+.prev1{
+  font-family: 'Staatliches', cursive;
+  font-size: 40px;
+}
+.exit1:hover{
+  color: white;
+  background-color: #dbaa21;
+}
+.prev1:hover{
+  color: white;
+  background-color: #dbaa21;
+}
