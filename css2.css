@@ -1,0 +1,123 @@
+.header1{
+  font-family: 'Staatliches', cursive;
+  font-size: 45px;
+  display: flex;
+  justify-content: center;
+  color: #8ba856;
+}
+.name{
+  display: flex;
+  justify-content: flex-start;
+  font-family: 'Staatliches', cursive;
+  font-size: 30px;
+  flex:2;
+  background-color: black;
+  color:#dbaa21;
+}
+.bio1{
+  display: flex;
+  font-family: 'Staatliches', cursive;
+  font-size: 30px;
+  justify-content: flex-start;
+  flex:3;
+  background-color: black;
+  color:#dbaa21;
+}
+.Chem1{
+  display: flex;
+  font-family: 'Staatliches', cursive;
+  border: 25px solid black;
+  flex:4;
+}
+.footer1{
+  display: flex;
+  font-family: 'Staatliches', cursive;
+  font-size: 25px;
+  justify-content: flex-end;
+}
+.buy1{
+  font-family: 'Staatliches', cursive;
+  font-size: 25px;
+  display: flex;
+}
+.next1{
+  font-family: 'Staatliches', cursive;
+  font-size: 25px;
+  display: flex;
+}
+.img1{
+  display: flex;
+  justify-content: flex-start;
+  flex: 1;
+
+}
+body{
+  background: url("https://pbs.twimg.com/profile_images/567763976369352704/2vC54Dds.jpeg");
+  background-size: 100%;
+}
+.footer1:hover{
+color: white;
+}
+.header1:hover{
+  animation-name:lol;
+  animation-duration: 2s;
+}
+@keyframes lol {
+  0%{
+    transform: rotate(0deg);
+  }
+  25%{
+    color: white;
+    color: black;
+  }
+  50%{
+    color: green;
+    color: yellow;
+  }
+  75%{
+    color: white;
+    color: black;
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+.img1:hover{
+  animation-name:lol;
+  animation-duration: 2s;
+  animation-timing-function:ease-in-out;
+}
+.name:hover{
+  background-color:white;
+  color:black;
+}
+.buy1:hover{
+  color: white;
+  background-color: #dbaa21;
+}
+.next1:hover{
+  color: white;
+  background-color: #dbaa21;
+}
+.prev1{
+  font-family: 'Staatliches', cursive;
+  font-size: 25px;
+  display: flex;
+}
+.prev1:hover{
+  color: white;
+  background-color: #dbaa21;
+}
+body{
+animation-name: lol;
+animation-duration: 3s;
+}
+@keyframes lol {
+  0%{
+    transform: rotate(0deg);
+  }
+100%  {
+  transform: rotate(360deg);
+
+}
+}
